@@ -1,4 +1,4 @@
-# 🐹 Learn Go (Golang) – Core Basics
+# 🐹 Learn Go (Golang)
 
 Welcome! 👋  
 This repository is my **Go learning doc**, but I’ve structured it so **anyone can learn Go basics** step by step.  
