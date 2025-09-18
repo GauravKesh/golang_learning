@@ -35,8 +35,12 @@ func executeSQLOperations() {
 
 		if _, err := db.Exec(queryDelete); err != nil {
 			log.Fatal(err)
+		} else {
+			fmt.Println("Tables deletion Done")
 		}
 	}
+
+	fmt.Println("Tables Creation started ")
 
 	//  to create a branch table
 	{
@@ -50,6 +54,8 @@ func executeSQLOperations() {
 
 		if _, err := db.Exec(query); err != nil {
 			log.Fatal(err)
+		} else {
+			fmt.Println("Tables Creation Done")
 		}
 	}
 	// Account table query
@@ -64,6 +70,8 @@ func executeSQLOperations() {
 		);`
 		if _, err := db.Exec(query); err != nil {
 			log.Fatal(err)
+		} else {
+			fmt.Println("Tables Creation Done")
 		}
 	}
 
@@ -78,6 +86,8 @@ func executeSQLOperations() {
 		);`
 		if _, err := db.Exec(query); err != nil {
 			log.Fatal(err)
+		} else {
+			fmt.Println("Tables Creation Done")
 		}
 	}
 
@@ -93,9 +103,11 @@ func executeSQLOperations() {
 		);`
 		if _, err := db.Exec(query); err != nil {
 			log.Fatal(err)
+		} else {
+			fmt.Println("Tables Creation Done")
 		}
 	}
-
+	fmt.Println("Tables Creation Done.. ")
 	fmt.Println(err)
 }
 
