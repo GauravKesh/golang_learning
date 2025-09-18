@@ -1,0 +1,23 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go build command
+*.out
+
+# Common Go build output (executables)
+main
+app
+server
+client
+
+# Ignore any binary files in root
+/bin/
+/build/
+/dist/
